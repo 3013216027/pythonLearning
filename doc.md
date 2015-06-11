@@ -69,5 +69,6 @@ classmethod()	getattr()	locals()	repr()	zip()
 compile()	globals()	map()	reversed()	__import__()
 complex()	hasattr()	max()	round()
 delattr()	hash()	memoryview()	set()
+
 ---
 
