@@ -2,12 +2,16 @@
 # -*- coding: utf-8 -*-
 
 
-def my_abs(x):
+def pow(x, n=2):
     if not isinstance(x, (int, float)):
-        raise TypeError('bad operand type')
-    if x < 0:
-        x = -x
-    return x
+        raise TypeError('Bad operand type')
+    if not isinstance(n, int):
+        raise TypeError('Bad operand type')
+    res = 1
+    while n > 0:
+        res = res * x
+        n = n - 1
+    return res
 
 n = input('Please input a number: ')
-print(my_abs((n)))
+print(pow(int(n)))

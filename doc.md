@@ -57,18 +57,31 @@ print(s | s2)
 [Python Built-in Functions](https://docs.python.org/3/library/functions.html#object)
 ####Here are them:
 abs()	dict()	help()	min()	setattr()
+
 all()	dir()	hex()	next()	slice()
+
 any()	divmod()	id()	object()	sorted()
+
 ascii()	enumerate()	input()	oct()	staticmethod()
+
 bin()	eval()	int()	open()	str()
+
 bool()	exec()	isinstance()	ord()	sum()
+
 bytearray()	filter()	issubclass()	pow()	super()
+
 bytes()	float()	iter()	print()	tuple()
+
 callable()	format()	len()	property()	type()
+
 chr()	frozenset()	list()	range()	vars()
+
 classmethod()	getattr()	locals()	repr()	zip()
+
 compile()	globals()	map()	reversed()	__import__()
+
 complex()	hasattr()	max()	round()
+
 delattr()	hash()	memoryview()	set()
 
 ---
@@ -82,4 +95,6 @@ def move(x, y, step, angle=0):
 	ny = y + step * math.sin(angle)
 	return nx, ny
 #	In fact, it returns a tuple!
+
+# more about function: http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431752945034eb82ac80a3e64b9bb4929b16eeed1eb9000
 ```
