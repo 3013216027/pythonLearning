@@ -52,9 +52,10 @@ print(s & s2)
 print(s | s2)
 ```
 
-##Built-in Functions
+##Functions
+###Built-in Functions
 [Python Built-in Functions](https://docs.python.org/3/library/functions.html#object)
-###Here are them:
+####Here are them:
 abs()	dict()	help()	min()	setattr()
 all()	dir()	hex()	next()	slice()
 any()	divmod()	id()	object()	sorted()
@@ -71,4 +72,14 @@ complex()	hasattr()	max()	round()
 delattr()	hash()	memoryview()	set()
 
 ---
+###Rules
+```python
+import math
 
+
+def move(x, y, step, angle=0):
+	nx = x + step * math.cos(angle)
+	ny = y + step * math.sin(angle)
+	return nx, ny
+#	In fact, it returns a tuple!
+```
