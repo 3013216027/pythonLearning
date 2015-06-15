@@ -98,3 +98,52 @@ def move(x, y, step, angle=0):
 
 # more about function: http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431752945034eb82ac80a3e64b9bb4929b16eeed1eb9000
 ```
+
+#### Slice:
+```python
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+L = [1, 2, 3, 4, 5, 6, 7]
+
+i = 0
+while i < 3:
+    print(L[i])
+    i = i + 1
+
+print(L[0:3])
+print(L[-1:])
+print(L[-2:])
+print(L[::3])  # Choose numbers in each 3 ones
+print('ABCDEFG'[:3])
+print('ABCDEFG'[4:3])
+print('ABCDEFG'[-2:])
+print('ABCDEFG'[::3])
+```
+
+####Iter
+```python
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+
+dic = {'a': 1, 'b': 2, 'c': 3}
+for key in dic:
+    print(key)
+
+for value in dic.values():
+    print(value)
+
+for key, value in dic.items():
+    print(key, value)
+
+from collections import Iterable
+print(isinstance('abc', Iterable))
+print(isinstance(dic, Iterable))
+print(isinstance(123, Iterable))
+
+for i, value in enumerate(['A', 'B', 'C']):
+    print(i, value)
+```
+
+
